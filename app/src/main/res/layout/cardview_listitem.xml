@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:id="@+id/NewsName"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:text="New Items"
+        android:textColor="@color/black"
+        android:layout_marginEnd="20dp"
+        android:maxLines="1"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/NewsPic"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_below="@+id/NewsName"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        app:tint="#E88585" />-->
+
+    <TextView
+        android:id="@+id/NewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NewsName"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+        android:text="News Item"
+        android:textSize="16sp"/>
+
+</RelativeLayout>
